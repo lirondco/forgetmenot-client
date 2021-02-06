@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage component renders the complete form 1`] = `
+<Section
+  className="LoginPage"
+>
+  <h2
+    className="login_page"
+  >
+    Login
+  </h2>
+  <LoginForm
+    onLoginSuccess={[Function]}
+  />
+</Section>
+`;

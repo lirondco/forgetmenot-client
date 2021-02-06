@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Utils components button renders when called 1`] = `
+<button
+  className="Button test-class-name"
+  data-other="test-other-prop"
+>
+  <p>
+    test children
+  </p>
+</button>
+`;
+
+exports[`Utils components input renders when called 1`] = `
+<input
+  className="Input test-class-name"
+  data-other="test-other-prop"
+>
+  <p>
+    test children
+  </p>
+</input>
+`;
+
+exports[`Utils components renders a hyphen when Hyph is called 1`] = `
+<span
+  className="Hyph"
+>
+   - 
+</span>
+`;
+
+exports[`Utils components required renders when called 1`] = `
+<span
+  className="Required test-class-name"
+  data-other="test-other-prop"
+>
+  *
+</span>
+`;
+
+exports[`Utils components section renders when called 1`] = `
+<section
+  className="Section test-class-name"
+  data-other="test-other-prop"
+>
+  <p>
+    test children
+  </p>
+</section>
+`;
+
+exports[`Utils components textarea renders when called 1`] = `
+<textarea
+  className="Textarea test-class-name"
+  data-other="test-other-prop"
+>
+  <p>
+    test children
+  </p>
+</textarea>
+`;

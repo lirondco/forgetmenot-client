@@ -1,0 +1,11 @@
+.page_error {
+    background: #391A3D;
+    color: #EFEBE9;
+    margin: 0;
+    padding-bottom: 100%;
+}
+.page_error h3, p {
+    padding: 10%;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: xx-large;
+}

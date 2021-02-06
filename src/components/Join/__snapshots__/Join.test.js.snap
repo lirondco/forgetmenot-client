@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Join component renders the complete form 1`] = `
+<form
+  className="RegistrationForm"
+  onSubmit={[Function]}
+>
+  <div
+    role="alert"
+  />
+  <div
+    className="username"
+  >
+    <label
+      htmlFor="RegistrationForm__username"
+    >
+      Username 
+      <Required />
+    </label>
+    <Input
+      id="RegistrationForm__username"
+      name="username"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="email"
+  >
+    <label
+      htmlFor="RegistrationForm__email"
+    >
+      Email Address 
+      <Required />
+    </label>
+    <Input
+      id="RegistrationForm__email"
+      name="email"
+      required={true}
+      type="email"
+    />
+  </div>
+  <div
+    className="password"
+  >
+    <label
+      htmlFor="RegistrationForm__password"
+    >
+      Password 
+      <Required />
+    </label>
+    <Input
+      id="RegistrationForm__password"
+      name="password"
+      required={true}
+      type="password"
+    />
+  </div>
+  <Button
+    type="submit"
+  >
+    Register
+  </Button>
+</form>
+`;

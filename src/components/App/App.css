@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Mina&family=Patrick+Hand+SC&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.red {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  padding-bottom: 100%;
+}
+
+main {
+  background-color: #EFEBE9  ;
+  overflow: auto;
+  padding-bottom: 100%;
+}
+
+label {
+  font-family: 'Mina', sans-serif;
+}
+

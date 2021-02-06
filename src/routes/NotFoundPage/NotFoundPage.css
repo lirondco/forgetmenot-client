@@ -1,0 +1,11 @@
+.error_title {
+    font-family: 'Patrick Hand SC', cursive;
+    padding: 5%;
+    margin: 5%;
+}
+
+.error_text {
+    font-family: 'Mina', sans-serif;
+    padding: 5%;
+    margin: 5%;
+}

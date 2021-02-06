@@ -1,0 +1,20 @@
+.insertList {
+    padding: 5%;
+}
+
+.insertList h3 {
+    text-align: center;
+    margin: 5%;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 21pt;
+}
+
+.insertList form {
+    display: flex;
+    flex-direction: column;
+}
+
+.insertList form select {
+    margin-bottom: 5%;
+    width: fit-content;
+}

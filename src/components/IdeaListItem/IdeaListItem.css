@@ -1,0 +1,21 @@
+.IdeaListItem__main {
+    background: #C03D72;
+    margin: 3% 0 3% 0;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 2%;
+    border-radius: 4px;
+}
+
+.IdeaListItem__main a {
+    text-decoration: none;
+    font-family: 'Patrick Hand SC', cursive;
+    color: #EFEBE9;
+}
+
+.delete_list_button {
+    order: 1px solid #aaa;
+    background-color: #FF6F00;
+    border-radius: 4px;
+}

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar component renders the navigation bar 1`] = `
+<nav
+  className="Header"
+>
+  <h1
+    className="app_name"
+  >
+    <Link
+      to="/"
+    >
+       
+      ForgetMeNot
+    </Link>
+  </h1>
+  <div
+    className="Header__not-logged-in"
+  >
+    <Link
+      to="/about"
+    >
+      About
+    </Link>
+    <Hyph />
+    <Link
+      to="/help"
+    >
+      Help
+    </Link>
+  </div>
+</nav>
+`;

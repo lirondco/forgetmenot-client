@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component renders the list given props 1`] = `
+<div
+  className="IdeaListItem__main"
+>
+  <Link
+    className="IdeaListItem"
+    to="/lists/3"
+  >
+    <header
+      className="IdeaListItem__header"
+    >
+      <h2
+        className="IdeaListItem__heading"
+      >
+        testname
+      </h2>
+    </header>
+    <footer
+      className="IdeaListItem__footer"
+    >
+      <ListIdeaCount
+        list={
+          Object {
+            "id": 3,
+            "name": "testname",
+            "number_of_ideas": 4,
+          }
+        }
+      />
+    </footer>
+  </Link>
+  <button
+    className="delete_list_button"
+    onClick={[Function]}
+    type="button"
+  >
+    Delete
+  </button>
+</div>
+`;

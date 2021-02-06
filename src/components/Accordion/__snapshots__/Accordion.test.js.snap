@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component renders an accordion by default 1`] = `
+<div
+  className="accordion__section"
+>
+  <div
+    className="accordion "
+    onClick={[Function]}
+  >
+    <p
+      className="accordion__title"
+    />
+    <Chevron
+      className="accordion__icon"
+      fill="#EFEBE9"
+      width={10}
+    />
+  </div>
+  <div
+    className="accordion__content"
+    style={
+      Object {
+        "maxHeight": "0px",
+      }
+    }
+  >
+    <div
+      className="accordion__text"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": undefined,
+        }
+      }
+    />
+    <button
+      className="delete_idea"
+      onClick={[Function]}
+      type="button"
+    >
+      Delete Idea
+    </button>
+  </div>
+</div>
+`;
+
+exports[`List component renders the accordion given props 1`] = `
+<div
+  className="accordion__section"
+>
+  <div
+    className="accordion "
+    onClick={[Function]}
+  >
+    <p
+      className="accordion__title"
+    />
+    <Chevron
+      className="accordion__icon"
+      fill="#EFEBE9"
+      width={10}
+    />
+  </div>
+  <div
+    className="accordion__content"
+    style={
+      Object {
+        "maxHeight": "0px",
+      }
+    }
+  >
+    <div
+      className="accordion__text"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": undefined,
+        }
+      }
+    />
+    <button
+      className="delete_idea"
+      onClick={[Function]}
+      type="button"
+    >
+      Delete Idea
+    </button>
+  </div>
+</div>
+`;

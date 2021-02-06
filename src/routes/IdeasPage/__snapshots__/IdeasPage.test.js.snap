@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IdeasPage component renders a .IdeasPage by default 1`] = `
+<Section
+  className="IdeasPage"
+>
+  <div
+    className="loading"
+  />
+</Section>
+`;
+
+exports[`IdeasPage component renders an Idea in an accordion for each ideas in array 1`] = `null`;

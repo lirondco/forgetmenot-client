@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+.Header {
+    height: 40px;
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+    background: #391A3D;
+    padding: 7%;
+  }
+
+  .app_name {
+    font-family: 'Gochi Hand', cursive;
+  }
+  
+  .Header h1 {
+    margin: 0;
+  }
+  
+  .Header h1 a {
+    text-decoration: none;
+  }
+  
+  .Header a {
+    color: #EFEBE9;
+    margin: 10px;
+  }
+  
+  a:hover {
+    color: #9B898B;
+  }
+
+  .Header__not-logged-in {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Header__logged-in {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Header__not-logged-in .Hyph {
+    display: none;
+  }
+
+  .Header__logged-in .Hyph {
+    display: none;
+  }
+  
+  @media screen and (min-width: 450px) {
+    .Header {
+      align-items: baseline;
+      padding: 4%;
+    }
+    .Header h1 {
+      font-size: 22pt;
+    }
+  
+    .Header__not-logged-in {
+      flex-direction: row;
+    }
+
+    .Header__logged-in {
+      flex-direction: row;
+    }
+  
+    .Header__not-logged-in .Hyph {
+      display: initial;
+    }
+
+    .Header__logged-in .Hyph {
+      display: initial;
+    }
+  }
+  

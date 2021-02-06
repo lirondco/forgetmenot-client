@@ -1,0 +1,9 @@
+.list_name {
+    font-family: 'Mina', sans-serif;
+    padding: 5%;
+}
+
+.empty_list {
+    padding-bottom: 100%;
+    color: red;
+}

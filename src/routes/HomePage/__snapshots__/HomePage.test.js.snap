@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage component renders the home page 1`] = `
+<Section
+  className="homepage"
+>
+  <Home />
+</Section>
+`;

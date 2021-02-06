@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListsPage component renders a .ListsPage by default 1`] = `
+<Section
+  className="ListsPage"
+  list={true}
+>
+  <div
+    className="newlist_idea"
+  >
+    <Link
+      to="/newidea"
+    >
+      <div
+        className="newidea"
+      >
+        New Idea
+      </div>
+    </Link>
+    <Link
+      to="/newlist"
+    >
+      <div
+        className="newList"
+      >
+        New List
+      </div>
+    </Link>
+  </div>
+</Section>
+`;
+
+exports[`ListsPage component renders an list in an IdeaListItem for each lists in array 1`] = `null`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewListPage component renders the complete form 1`] = `
+<Section
+  className="newListPage"
+>
+  <NewListForm
+    onPostListSuccess={[Function]}
+  />
+</Section>
+`;

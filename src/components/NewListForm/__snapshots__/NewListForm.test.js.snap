@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewListForm component renders the complete form 1`] = `
+<div
+  className="insertList"
+>
+  <h3>
+    You're entering a new list for your ideas
+  </h3>
+  <form
+    className="listForm"
+    onSubmit={[Function]}
+  >
+    <div
+      className="listName"
+    >
+      <label
+        htmlFor="name"
+      >
+        New list's name:
+      </label>
+      <Required />
+      <Input
+        id="name"
+        maxLength="30"
+        name="name"
+        required={true}
+        type="text"
+      />
+    </div>
+    <Button
+      type="submit"
+    >
+      Add List
+    </Button>
+  </form>
+</div>
+`;

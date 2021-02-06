@@ -1,0 +1,21 @@
+.ListsPage {
+    padding: 5%;
+}
+
+.newlist_idea {
+    display: flex;
+    flex-direction: row;
+}
+
+.newlist_idea a {
+    order: 1px solid #aaa;
+    background-color: #FF6F00;
+    font-size: 1.1em;
+    border-radius: 4px;
+    padding: 12px 12px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 2%;
+    flex: 6;
+    text-align: center;
+}

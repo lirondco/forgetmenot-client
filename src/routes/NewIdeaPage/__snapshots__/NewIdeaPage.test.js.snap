@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewIdeaPage component renders the complete form 1`] = `
+<Section
+  className="NewIdeaPage"
+>
+  <NewIdeaForm
+    onPostIdeaSuccess={[Function]}
+  />
+</Section>
+`;

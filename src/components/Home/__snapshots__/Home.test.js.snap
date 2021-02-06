@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component renders the home page 1`] = `
+<div
+  className="home_component"
+>
+  <Link
+    to="/login"
+  >
+    <div
+      className="signin"
+    >
+      Log In
+    </div>
+  </Link>
+  <Link
+    to="/join"
+  >
+    <div
+      className="signup"
+    >
+      Sign Up
+    </div>
+  </Link>
+</div>
+`;

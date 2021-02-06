@@ -1,0 +1,17 @@
+.about_page {
+    font-family: 'Mina', sans-serif;
+    padding: 5%;
+}
+
+.about_page h1{
+    margin: 5%;
+}
+
+.help_page {
+    font-family: 'Mina', sans-serif;
+    padding: 5%;
+}
+
+.help_page h1, h3 {
+    margin: 2%;
+}
