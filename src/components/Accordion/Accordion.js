@@ -4,6 +4,10 @@ import Chevron from "./Chevron";
 import "./Accordion.css";
 import IdeasApiService from "../../services/ideas-api-service";
 
+/* this is an 'accordion' component that I used to house each of the user's
+ idea. c/o with some personalised modifications:
+ https://medium.com/skillthrive/build-a-react-accordion-component-from-scratch-using-react-hooks-a71d3d91324b */
+
 function Accordion(props) {
   const [setActive, setActiveState] = useState("");
   const [setHeight, setHeightState] = useState("0px");
@@ -45,7 +49,7 @@ function Accordion(props) {
           dangerouslySetInnerHTML={{ __html: props.content }}
         />
         <button type='button' className='delete_idea' onClick={handleClickDelete}>
-            Delete Idea
+            Delete Idea {/* added this button for idea deletion function */}
         </button>
       </div>
     </div>

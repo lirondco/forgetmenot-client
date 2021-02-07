@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutHelp.css'
-
+// simple text page for About info
 export default function About() {
     return (
         <div className="about_page">

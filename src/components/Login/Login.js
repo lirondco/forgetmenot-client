@@ -4,6 +4,8 @@ import AuthApiService from '../../services/auth-api-service'
 import { Button, Input } from '../Utils/Utils.js'
 import IdeasContext from '../../contexts/IdeasContext'
 export default class LoginForm extends Component {
+
+  //this component renders the user log in page
   static defaultProps = {
     onLoginSuccess: () => {}
   }
@@ -11,6 +13,9 @@ export default class LoginForm extends Component {
   static contextType = IdeasContext
 
   state = { error: null }
+
+  /* the following function verifies the user's credentials
+  and creates the token key when successful    */
 
   handleSubmitJwtAuth = ev => {
     ev.preventDefault()

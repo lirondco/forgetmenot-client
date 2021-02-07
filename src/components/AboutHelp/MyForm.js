@@ -1,6 +1,6 @@
 import React from "react";
 import { Textarea, Input, Required, Button} from "../Utils/Utils";
-
+//form submission to my email address
 export default class MyForm extends React.Component {
   constructor(props) {
     super(props);

@@ -2,7 +2,6 @@ import React from 'react';
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import JoinPage from './JoinPage'
-import Join from '../../components/Join/Join';
 
 describe(`JoinPage component`, () => {
   it('renders the complete form', () => {

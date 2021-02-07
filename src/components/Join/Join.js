@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Button, Input, Required } from '../Utils/Utils'
 import AuthApiService from '../../services/auth-api-service'
 
+//renders the registration page
+
 export default class Join extends Component {
   static defaultProps = {
     onRegistrationSuccess: () => {}
@@ -10,6 +12,7 @@ export default class Join extends Component {
   state = { error: null }
 
   handleSubmit = ev => {
+    //function to handle new user registrations
     ev.preventDefault()
     const { username, email, password } = ev.target
 
