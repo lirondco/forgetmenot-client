@@ -1,8 +1,6 @@
 ## FORGET-ME-NOT APP
 
-## FORGETMENOT
-
-# Live app: 
+Live app: https://forgetmenot.vercel.app
 
 ## API Documentation
 
