@@ -28,6 +28,13 @@ export default function About() {
                 I told myself that I should save for. When I got home, that 'something' has been forgotten and I still can't
                 recall what it was. It is what it is, I guess.
             </p>
+            <h1>Demo account</h1>
+            Try this app out by using the following credentials: 
+
+            username: TestUser
+            password: TestPassword1!
+
+            This user has preset lists and ideas for demo. Feel free to add your own.
         </div>
     )
 }

@@ -38,7 +38,7 @@ exports[`List component renders an accordion by default 1`] = `
       onClick={[Function]}
       type="button"
     >
-      Delete Idea
+      Delete Idea 
     </button>
   </div>
 </div>
@@ -82,7 +82,7 @@ exports[`List component renders the accordion given props 1`] = `
       onClick={[Function]}
       type="button"
     >
-      Delete Idea
+      Delete Idea 
     </button>
   </div>
 </div>

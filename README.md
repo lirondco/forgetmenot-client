@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+## FORGET-ME-NOT APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## FORGETMENOT
 
-## Available Scripts
+# Live app: 
 
-In the project directory, you can run:
+## API Documentation
 
-### `npm start`
+Full API Documentation can be found here: https://github.com/lirondco/forgetmenot-server
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Summary
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The goal of this app is to help people like me who have memory lapses and need a way to organise thoughts and ideas without the time constraint of a calendar or the chaos of an iPhone's note app. It's designed to be simple and easy to use. It is also a flexible app. Though personally I'd use it to record spontaneous thoughts and ideas that enter my mind when doing something else, one test user told me that they used it to help them with shopping for a recipe and then listing things they find interesting at the store that they did not want to purches at the time.
 
-### `npm test`
+## How to use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Home Page
+![Home page screenshot](/screenshots/homepage.png "Home Page")
 
-### `npm run build`
+This is the page that you see when you first open the app. If you are a test user, a test set of credentials can be found in the "About" page. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# User log in
+![Log in screenshot](/screenshots/login.png "User login page")
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This is the log-in page where a user enters their valid credentials. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Register user
+![Registration screenshot](/screenshots/register.png "registration page")
 
-### `npm run eject`
+This is the registration page for new users.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# New user's empty list page
+![empty list page screenshot](/screenshots/freshlist.png "empty list for new users page")
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+New users will not have any lists for their ideas, so they see a blank page with two buttons for making an idea and a list. A user must make a list first before making an idea. If a user makes an idea without a list, they will be prompted with a link to create a new list.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# List Form
+![add list form](/screenshots/addlist.png "new list form")
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This is the form that users see when they're creating a new list. 
 
-## Learn More
+# Empty List
+![empty list page](/screenshots/emptylist.png "empty list page")
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+When a list is first created, it will not contain any idea. This is how an empty list page will look like.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# New Idea Form
+![new idea form](/screenshots/addidea.png "new idea form")
 
-### Code Splitting
+This is a form for creating a new idea.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Ideas Page
+![idea page](/screenshots/idea.png "idea page")
 
-### Analyzing the Bundle Size
+This is how a list with an idea will look like.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![expanded idea](/screenshots/expandedidea.png "expanded idea")
 
-### Making a Progressive Web App
+And this is how it looks like if an idea is clicked.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Delete Function
 
-### Advanced Configuration
+You can delete an idea and a list by clicking on the delete button. Please note that deletion is irreversible. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Technologies used
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. HTML as JSX
+2. CSS
+3. React.js
+4. Node.js
+5. Express
+6. PostgreSQL
+7. Javascript
