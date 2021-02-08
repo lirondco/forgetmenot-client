@@ -100,41 +100,6 @@ const IdeasApiService = {
       })
         .catch(error => (console.log(error)))
   },
-//codes for future development
-  patchIdea(ideaId, ...params) {
-      return fetch(`${config.API_ENDPOINT}/ideas/${ideaId}`, {
-          method: 'PATCH',
-          headers: {
-              'content-type': 'application/json',
-              'authorization': `bearer ${TokenService.getAuthToken()}`,
-          },
-          body: JSON.stringify({
-              ...params
-          }),
-      })
-        .then(res=>
-            (!res.ok)
-                ? res.json().then(e => Promise.reject(e))
-                : res.json()
-            )
-  },
-  patchList(listId, ...params) {
-      return fetch(`${config.API_ENDPOINT}/lists/${listId}`, {
-          method: 'PATCH',
-          headers: {
-              'content-type': 'application/json',
-              'authorization': `bearer ${TokenService.getAuthToken()}`,
-          },
-          body: JSON.stringify({
-              ...params
-          }),
-      })
-        .then(res =>
-            (!res.ok)
-                ? res.json().then(e => Promise.reject(e))
-                : res.json()
-            )
-  }
 }
 
 export default IdeasApiService
