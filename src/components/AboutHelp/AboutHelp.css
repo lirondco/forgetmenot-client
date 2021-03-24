@@ -1,17 +1,25 @@
 .about_page {
     font-family: 'Mina', sans-serif;
-    padding: 5%;
+    padding: 2%;
+}
+
+.about_page p {
+    padding: 2%;
 }
 
 .about_page h1{
-    margin: 5%;
+    margin: 2%;
 }
 
 .help_page {
     font-family: 'Mina', sans-serif;
-    padding: 5%;
+    padding: 2%;
 }
 
 .help_page h1, h3 {
     margin: 2%;
+}
+
+.contact_form label, .contact_form .Required {
+    vertical-align: top;
 }

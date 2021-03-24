@@ -12,7 +12,6 @@ import './App.css'
 import NewIdeaPage from '../../routes/NewIdeaPage/NewIdeaPage'
 import NewListPage from '../../routes/NewListPage/NewListPage'
 import ErrorComponent from '../ErrorComponent/ErrorComponent'
-import About from '../AboutHelp/About'
 import Help from '../AboutHelp/Help'
 
 class App extends Component {
@@ -41,10 +40,6 @@ class App extends Component {
               path={'/'}
               component={HomePage}
             />
-            <Route
-              path={'/about'}
-              component={About}
-              />
             <Route
               path={'/help'}
               component={Help}

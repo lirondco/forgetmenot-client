@@ -29,12 +29,14 @@ export default function About() {
                 recall what it was. It is what it is, I guess.
             </p>
             <h1>Demo account</h1>
-            Try this app out by using the following credentials: 
-
+            <p>Try this app out by using the following credentials: 
+            <br />
             username: TestUser
+            <br />
             password: TestPassword1!
-
+            <br />
             This user has preset lists and ideas for demo. Feel free to add your own.
+            </p>
         </div>
     )
 }

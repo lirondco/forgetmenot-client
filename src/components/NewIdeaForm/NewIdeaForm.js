@@ -67,10 +67,12 @@ export default class NewIdeaForm extends Component {
                 />
         </div>
         <div className='content'>
+          <label htmlFor='content'>
+            Description
+          </label>
           <Required />
           <Textarea
             required
-            aria-label='Type a short description...'
             name='content'
             id='content'
             cols='30'
@@ -78,8 +80,8 @@ export default class NewIdeaForm extends Component {
             maxLength='240'
             placeholder='Type a short description...'>
           </Textarea>
-        </div>
-        <label htmlFor='list'>Add to which list?</label>
+          <br />
+          <label htmlFor='list'>Add to which list?</label>
         <Required />
         <select id='list' name='list' required>
             <option value={null}>...</option>
@@ -91,6 +93,7 @@ export default class NewIdeaForm extends Component {
                 )
             })}
         </select>
+        </div>
         <Button type='submit'>
           Add Idea
         </Button>

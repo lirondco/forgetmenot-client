@@ -17,11 +17,13 @@ export default class MyForm extends React.Component {
         onSubmit={this.submitForm}
         action="https://formspree.io/f/mzbkwaao"
         method="POST"
+        className="contact_form"
       >
-        <label>Email:</label>
+        <label htmlFor='email'>Email:</label>
         <Required />
         <Input type='email' name='email' required />
-        <label>Message:</label>
+        <br />
+        <label htmlFor='message'>Message:</label>
         <Required />
         <Textarea
          required

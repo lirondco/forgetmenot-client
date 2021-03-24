@@ -12,6 +12,7 @@
   color: #EFEBE9;
   cursor: pointer;
   padding: 1%;
+  height: 50px !important;
   display: flex;
   align-items: center;
   border: none;

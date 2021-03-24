@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
 .Header {
-    height: 40px;
     display: flex;
-    align-items: normal;
     justify-content: space-between;
     background: #391A3D;
-    padding: 7%;
+    padding: 3%;
+    flex-wrap: wrap;
+  }
+
+  nav {
+    width: 100%;
   }
 
   .app_name {
@@ -51,7 +54,6 @@
   @media screen and (min-width: 450px) {
     .Header {
       align-items: baseline;
-      padding: 4%;
     }
     .Header h1 {
       font-size: 22pt;

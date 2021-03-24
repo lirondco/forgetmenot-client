@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Button, Input, Required } from '../Utils/Utils'
 import AuthApiService from '../../services/auth-api-service'
+import IdeasContext from '../../contexts/IdeasContext'
+import TokenService from '../../services/token-service'
 
 //renders the registration page
 
@@ -11,23 +13,33 @@ export default class Join extends Component {
 
   state = { error: null }
 
+  static contextType = IdeasContext
+
   handleSubmit = ev => {
     //function to handle new user registrations
     ev.preventDefault()
     const { username, email, password } = ev.target
 
-    this.setState({ error: null })
+    this.setState({ error: "Processing ..." })
     AuthApiService.postUser({
       username: username.value,
       email: email.value,
       password: password.value,
     })
-      .then(user => {
-        username.value = ''
-        email.value = ''
-        password.value = ''
-        this.props.onRegistrationSuccess()
-      })
+        .then(user => AuthApiService.postLogin({
+          username: username.value,
+          password: password.value,
+        })
+          .then(res => {
+            TokenService.saveAuthToken(res.authToken)
+            this.context.toggleLoggedIn()
+            username.value = ''
+            email.value = ''
+            password.value = ''
+            this.props.onRegistrationSuccess()
+            this.setState({ error: null })
+          })
+    )
       .catch(res => {
         this.setState({ error: res.error })
       })
@@ -40,9 +52,6 @@ export default class Join extends Component {
         className='RegistrationForm'
         onSubmit={this.handleSubmit}
       >
-        <div role='alert'>
-          {error && <p className='red'>{error}</p>}
-        </div>
         <div className='username'>
           <label htmlFor='RegistrationForm__username'>
             Username <Required />
@@ -79,6 +88,9 @@ export default class Join extends Component {
         <Button type='submit'>
           Register
         </Button>
+        <div role='alert'>
+          {error && <p className='red'>{error}</p>}
+        </div>
       </form>
     )
   }

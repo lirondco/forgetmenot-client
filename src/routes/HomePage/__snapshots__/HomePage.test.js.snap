@@ -4,6 +4,6 @@ exports[`HomePage component renders the home page 1`] = `
 <Section
   className="homepage"
 >
-  <Home />
+  <About />
 </Section>
 `;

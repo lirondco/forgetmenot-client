@@ -31,9 +31,13 @@ exports[`NewIdeaForm component renders the complete form 1`] = `
     <div
       className="content"
     >
+      <label
+        htmlFor="content"
+      >
+        Description
+      </label>
       <Required />
       <Textarea
-        aria-label="Type a short description..."
         cols="30"
         id="content"
         maxLength="240"
@@ -42,24 +46,25 @@ exports[`NewIdeaForm component renders the complete form 1`] = `
         required={true}
         rows="3"
       />
-    </div>
-    <label
-      htmlFor="list"
-    >
-      Add to which list?
-    </label>
-    <Required />
-    <select
-      id="list"
-      name="list"
-      required={true}
-    >
-      <option
-        value={null}
+      <br />
+      <label
+        htmlFor="list"
       >
-        ...
-      </option>
-    </select>
+        Add to which list?
+      </label>
+      <Required />
+      <select
+        id="list"
+        name="list"
+        required={true}
+      >
+        <option
+          value={null}
+        >
+          ...
+        </option>
+      </select>
+    </div>
     <Button
       type="submit"
     >

@@ -18,9 +18,21 @@ exports[`NavBar component renders the navigation bar 1`] = `
     className="Header__not-logged-in"
   >
     <Link
-      to="/about"
+      to="/"
     >
       About
+    </Link>
+    <Hyph />
+    <Link
+      to="/login"
+    >
+      Login
+    </Link>
+    <Hyph />
+    <Link
+      to="/join"
+    >
+      Register
     </Link>
     <Hyph />
     <Link

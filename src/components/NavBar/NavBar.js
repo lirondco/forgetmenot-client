@@ -23,10 +23,6 @@ export default class NavBar extends Component {
           to='/'>
           Logout
         </Link>
-        <Hyph />  
-        <Link to='/about'>
-          About
-        </Link>
         <Hyph />
         <Link to='/help'>
            Help 
@@ -39,8 +35,16 @@ export default class NavBar extends Component {
 //should render without logout
     return (
       <div className='Header__not-logged-in'>
-        <Link to='/about'>
+        <Link to='/'>
           About
+        </Link>
+        <Hyph />
+        <Link to='/login'>
+          Login
+        </Link>
+        <Hyph />
+        <Link to='/join'>
+          Register
         </Link>
         <Hyph />
         <Link to='/help'>

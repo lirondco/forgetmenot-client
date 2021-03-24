@@ -10,17 +10,52 @@
 .red {
   color: red;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 10px;
-  padding-bottom: 100%;
-}
-
-main {
-  background-color: #EFEBE9  ;
-  overflow: auto;
-  padding-bottom: 100%;
 }
 
 label {
   font-family: 'Mina', sans-serif;
+}
+
+@media screen and (min-width: 500px) {
+  form {
+    width: 80% !important;
+    margin: 0 auto !important;
+  }
+
+  label,
+  input,
+  textarea,
+  select {
+    display: inline-block !important;
+  }
+
+  label {
+    width: 30% !important;
+    text-align: right !important;
+  }
+
+  label + input {
+    width: 30% !important;
+    margin: 1% 30% 0 4% !important;
+  }
+
+  label + select {
+    width: 30% !important;
+    margin: 1% 30% 0 4% !important;
+  }
+  
+  input + input {
+    float: right !important;
+  }
+
+  select + select {
+    float: right !important;
+  }
+
+
+  button {
+    display: inline-block !important;
+    margin: 1% 40% 1% 20% !important;
+  }
 }
 

@@ -17,5 +17,9 @@
 .insertIdea form select {
     margin-bottom: 5%;
     padding: 10px;
-    width: fit-content;
+    width: 30% !important;
+}
+
+.insertIdea label, .insertIdea .Required {
+    vertical-align: top;
 }
