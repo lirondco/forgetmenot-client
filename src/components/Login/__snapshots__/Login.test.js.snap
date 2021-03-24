@@ -6,9 +6,6 @@ exports[`Login component renders the complete form 1`] = `
   onSubmit={[Function]}
 >
   <div
-    role="alert"
-  />
-  <div
     className="username"
   >
     <label
@@ -42,5 +39,8 @@ exports[`Login component renders the complete form 1`] = `
   >
     Login
   </Button>
+  <div
+    role="alert"
+  />
 </form>
 `;

@@ -6,9 +6,6 @@ exports[`Join component renders the complete form 1`] = `
   onSubmit={[Function]}
 >
   <div
-    role="alert"
-  />
-  <div
     className="username"
   >
     <label
@@ -61,5 +58,8 @@ exports[`Join component renders the complete form 1`] = `
   >
     Register
   </Button>
+  <div
+    role="alert"
+  />
 </form>
 `;
