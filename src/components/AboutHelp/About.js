@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div className="about_page">
             <h1>About this App</h1>
-            <p>This app in progress was developed specifically for those of us who have 
+            <p>This app was developed specifically for those of us who have 
                 very active brains due to ADHD. Forget the pen and paper, your unorganisable notes app in your
                 phone, or your calendar. This app enables you to store "ideas" in different "lists" that you've 
                 randomly thought of and will surely forget in 5 minutes. It's not a calendar so it does not have
